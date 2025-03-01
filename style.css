@@ -3,6 +3,7 @@ body {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     text-align: center;
+   
 }
 
 main {
@@ -12,6 +13,8 @@ main {
     flex-direction: column;
     gap: 26px;
     margin: 20px auto;
+    position: relative;
+    height: 80vh;
 }
 
 h1 {
@@ -32,10 +35,10 @@ button {
     font-size: 1rem;
     font-weight: 700;
 
-    position: fixed;
+    position: absolute;
     right: auto;
     left: auto;
-    bottom: 8em;
+    bottom: 4em;
 
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
